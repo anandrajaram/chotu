@@ -1,0 +1,342 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'yo',
+1 verbose cli   'generator-hubot' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.32
+4 verbose cache add [ 'yo', null ]
+5 verbose cache add name=undefined spec="yo" args=["yo",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'yo',
+6 verbose parsed url   path: 'yo',
+6 verbose parsed url   href: 'yo' }
+7 verbose cache add [ 'generator-hubot', null ]
+8 verbose cache add name=undefined spec="generator-hubot" args=["generator-hubot",null]
+9 verbose parsed url { protocol: null,
+9 verbose parsed url   slashes: null,
+9 verbose parsed url   auth: null,
+9 verbose parsed url   host: null,
+9 verbose parsed url   port: null,
+9 verbose parsed url   hostname: null,
+9 verbose parsed url   hash: null,
+9 verbose parsed url   search: null,
+9 verbose parsed url   query: null,
+9 verbose parsed url   pathname: 'generator-hubot',
+9 verbose parsed url   path: 'generator-hubot',
+9 verbose parsed url   href: 'generator-hubot' }
+10 silly lockFile c41975d1-yo yo
+11 verbose lock yo /Users/arajaram/.npm/c41975d1-yo.lock
+12 silly lockFile a99f4c03-generator-hubot generator-hubot
+13 verbose lock generator-hubot /Users/arajaram/.npm/a99f4c03-generator-hubot.lock
+14 silly lockFile c41975d1-yo yo
+15 silly lockFile c41975d1-yo yo
+16 silly lockFile a99f4c03-generator-hubot generator-hubot
+17 silly lockFile a99f4c03-generator-hubot generator-hubot
+18 verbose addNamed [ 'yo', '' ]
+19 verbose addNamed [ null, '*' ]
+20 silly lockFile d937c28e-yo yo@
+21 verbose lock yo@ /Users/arajaram/.npm/d937c28e-yo.lock
+22 verbose addNamed [ 'generator-hubot', '' ]
+23 verbose addNamed [ null, '*' ]
+24 silly lockFile c9293273-generator-hubot generator-hubot@
+25 verbose lock generator-hubot@ /Users/arajaram/.npm/c9293273-generator-hubot.lock
+26 silly addNameRange { name: 'yo', range: '*', hasData: false }
+27 verbose request where is /yo
+28 verbose request registry https://registry.npmjs.org/
+29 verbose request id d2e4318d1f23e5d9
+30 verbose url raw /yo
+31 verbose url resolving [ 'https://registry.npmjs.org/', './yo' ]
+32 verbose url resolved https://registry.npmjs.org/yo
+33 verbose request where is https://registry.npmjs.org/yo
+34 info trying registry request attempt 1 at 17:00:28
+35 http GET https://registry.npmjs.org/yo
+36 silly addNameRange { name: 'generator-hubot', range: '*', hasData: false }
+37 verbose request where is /generator-hubot
+38 verbose request registry https://registry.npmjs.org/
+39 verbose url raw /generator-hubot
+40 verbose url resolving [ 'https://registry.npmjs.org/', './generator-hubot' ]
+41 verbose url resolved https://registry.npmjs.org/generator-hubot
+42 verbose request where is https://registry.npmjs.org/generator-hubot
+43 info trying registry request attempt 1 at 17:00:28
+44 http GET https://registry.npmjs.org/generator-hubot
+45 http 200 https://registry.npmjs.org/generator-hubot
+46 silly registry.get cb [ 200,
+46 silly registry.get   { date: 'Wed, 26 Nov 2014 22:00:28 GMT',
+46 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+46 silly registry.get     etag: '"3OM8C7U57BKDS0JJS4DX6KX5I"',
+46 silly registry.get     'content-type': 'application/json',
+46 silly registry.get     'cache-control': 'max-age=60',
+46 silly registry.get     'content-length': '7472',
+46 silly registry.get     'accept-ranges': 'bytes',
+46 silly registry.get     via: '1.1 varnish',
+46 silly registry.get     age: '2',
+46 silly registry.get     'x-served-by': 'cache-atl6229-ATL',
+46 silly registry.get     'x-cache': 'HIT',
+46 silly registry.get     'x-cache-hits': '1',
+46 silly registry.get     'x-timer': 'S1417039228.873996,VS0,VE0',
+46 silly registry.get     vary: 'Accept',
+46 silly registry.get     'keep-alive': 'timeout=10, max=50',
+46 silly registry.get     connection: 'Keep-Alive' } ]
+47 silly addNameRange number 2 { name: 'generator-hubot', range: '*', hasData: true }
+48 silly addNameRange versions [ 'generator-hubot',
+48 silly addNameRange   [ '0.1.0', '0.1.1', '0.1.2', '0.1.3', '0.1.4' ] ]
+49 verbose addNamed [ 'generator-hubot', '0.1.4' ]
+50 verbose addNamed [ '0.1.4', '0.1.4' ]
+51 silly lockFile 1dcd4dbe-generator-hubot-0-1-4 generator-hubot@0.1.4
+52 verbose lock generator-hubot@0.1.4 /Users/arajaram/.npm/1dcd4dbe-generator-hubot-0-1-4.lock
+53 silly lockFile 7ade5366--hubot-generator-hubot-0-1-4-tgz https://registry.npmjs.org/generator-hubot/-/generator-hubot-0.1.4.tgz
+54 verbose lock https://registry.npmjs.org/generator-hubot/-/generator-hubot-0.1.4.tgz /Users/arajaram/.npm/7ade5366--hubot-generator-hubot-0-1-4-tgz.lock
+55 verbose addRemoteTarball [ 'https://registry.npmjs.org/generator-hubot/-/generator-hubot-0.1.4.tgz',
+55 verbose addRemoteTarball   'e2a17ed9b57f2dc8c58c729352e762cb582eb5ef' ]
+56 info retry fetch attempt 1 at 17:00:29
+57 verbose fetch to= /var/folders/3_/clrp1kjx0dz707vn3vkpz7t40000gn/T/npm-49341-BJIhMIsc/registry.npmjs.org/generator-hubot/-/generator-hubot-0.1.4.tgz
+58 http GET https://registry.npmjs.org/generator-hubot/-/generator-hubot-0.1.4.tgz
+59 http 200 https://registry.npmjs.org/yo
+60 silly registry.get cb [ 200,
+60 silly registry.get   { date: 'Wed, 26 Nov 2014 22:00:28 GMT',
+60 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+60 silly registry.get     etag: '"DCCB8PPACB63A6PKXL18LPDYZ"',
+60 silly registry.get     'content-type': 'application/json',
+60 silly registry.get     'cache-control': 'max-age=60',
+60 silly registry.get     'content-length': '48968',
+60 silly registry.get     'accept-ranges': 'bytes',
+60 silly registry.get     via: '1.1 varnish',
+60 silly registry.get     age: '26',
+60 silly registry.get     'x-served-by': 'cache-atl6233-ATL',
+60 silly registry.get     'x-cache': 'HIT',
+60 silly registry.get     'x-cache-hits': '1',
+60 silly registry.get     'x-timer': 'S1417039228.868266,VS0,VE0',
+60 silly registry.get     vary: 'Accept',
+60 silly registry.get     'keep-alive': 'timeout=10, max=50',
+60 silly registry.get     connection: 'Keep-Alive' } ]
+61 silly addNameRange number 2 { name: 'yo', range: '*', hasData: true }
+62 silly addNameRange versions [ 'yo',
+62 silly addNameRange   [ '1.0.0-beta.1',
+62 silly addNameRange     '1.0.0-beta.2',
+62 silly addNameRange     '1.0.0-beta.3',
+62 silly addNameRange     '1.0.0-beta.4',
+62 silly addNameRange     '1.0.0-beta.5',
+62 silly addNameRange     '1.0.0-beta.6',
+62 silly addNameRange     '1.0.0-beta.7',
+62 silly addNameRange     '1.0.0-rc.1',
+62 silly addNameRange     '1.0.0-rc.1.1',
+62 silly addNameRange     '1.0.0-rc.1.2',
+62 silly addNameRange     '1.0.0-rc.1.3',
+62 silly addNameRange     '1.0.0-rc.1.4',
+62 silly addNameRange     '1.0.0',
+62 silly addNameRange     '1.0.1',
+62 silly addNameRange     '1.0.2',
+62 silly addNameRange     '1.0.3',
+62 silly addNameRange     '1.0.4',
+62 silly addNameRange     '1.0.5',
+62 silly addNameRange     '1.0.6',
+62 silly addNameRange     '1.0.7-pre.1',
+62 silly addNameRange     '1.0.7-pre.2',
+62 silly addNameRange     '1.0.7-pre.3',
+62 silly addNameRange     '1.1.0',
+62 silly addNameRange     '1.1.1',
+62 silly addNameRange     '1.1.2',
+62 silly addNameRange     '1.2.0',
+62 silly addNameRange     '1.2.1',
+62 silly addNameRange     '1.3.0',
+62 silly addNameRange     '1.3.2',
+62 silly addNameRange     '1.3.3' ] ]
+63 verbose addNamed [ 'yo', '1.3.3' ]
+64 verbose addNamed [ '1.3.3', '1.3.3' ]
+65 silly lockFile 68164736-yo-1-3-3 yo@1.3.3
+66 verbose lock yo@1.3.3 /Users/arajaram/.npm/68164736-yo-1-3-3.lock
+67 silly lockFile f34d3fe9-gistry-npmjs-org-yo-yo-1-3-3-tgz https://registry.npmjs.org/yo/-/yo-1.3.3.tgz
+68 verbose lock https://registry.npmjs.org/yo/-/yo-1.3.3.tgz /Users/arajaram/.npm/f34d3fe9-gistry-npmjs-org-yo-yo-1-3-3-tgz.lock
+69 verbose addRemoteTarball [ 'https://registry.npmjs.org/yo/-/yo-1.3.3.tgz',
+69 verbose addRemoteTarball   '732b053d6da401965ef146fe914d014474c37c1b' ]
+70 info retry fetch attempt 1 at 17:00:29
+71 verbose fetch to= /var/folders/3_/clrp1kjx0dz707vn3vkpz7t40000gn/T/npm-49341-BJIhMIsc/registry.npmjs.org/yo/-/yo-1.3.3.tgz
+72 http GET https://registry.npmjs.org/yo/-/yo-1.3.3.tgz
+73 http 200 https://registry.npmjs.org/generator-hubot/-/generator-hubot-0.1.4.tgz
+74 silly lockFile 7ade5366--hubot-generator-hubot-0-1-4-tgz https://registry.npmjs.org/generator-hubot/-/generator-hubot-0.1.4.tgz
+75 silly lockFile 7ade5366--hubot-generator-hubot-0-1-4-tgz https://registry.npmjs.org/generator-hubot/-/generator-hubot-0.1.4.tgz
+76 silly lockFile 1dcd4dbe-generator-hubot-0-1-4 generator-hubot@0.1.4
+77 silly lockFile 1dcd4dbe-generator-hubot-0-1-4 generator-hubot@0.1.4
+78 silly lockFile c9293273-generator-hubot generator-hubot@
+79 silly lockFile c9293273-generator-hubot generator-hubot@
+80 http 200 https://registry.npmjs.org/yo/-/yo-1.3.3.tgz
+81 silly lockFile f34d3fe9-gistry-npmjs-org-yo-yo-1-3-3-tgz https://registry.npmjs.org/yo/-/yo-1.3.3.tgz
+82 silly lockFile f34d3fe9-gistry-npmjs-org-yo-yo-1-3-3-tgz https://registry.npmjs.org/yo/-/yo-1.3.3.tgz
+83 silly lockFile 68164736-yo-1-3-3 yo@1.3.3
+84 silly lockFile 68164736-yo-1-3-3 yo@1.3.3
+85 silly lockFile d937c28e-yo yo@
+86 silly lockFile d937c28e-yo yo@
+87 silly resolved [ { name: 'generator-hubot',
+87 silly resolved     version: '0.1.4',
+87 silly resolved     description: 'Hubot generator for Yeoman',
+87 silly resolved     license: 'MIT',
+87 silly resolved     main: 'generators/app/index.js',
+87 silly resolved     repository:
+87 silly resolved      { type: 'git',
+87 silly resolved        url: 'https://github.com/github/generator-hubot' },
+87 silly resolved     author:
+87 silly resolved      { name: 'Josh Nichols',
+87 silly resolved        email: 'josh@technicalpickles.com',
+87 silly resolved        url: 'https://github.com/technicalpickles' },
+87 silly resolved     engines: { node: '>=0.10.0' },
+87 silly resolved     scripts: { test: 'mocha' },
+87 silly resolved     files: [ 'generators' ],
+87 silly resolved     keywords: [ 'yeoman-generator', 'hubot', 'hubot-script' ],
+87 silly resolved     dependencies:
+87 silly resolved      { 'yeoman-generator': '^0.17.0',
+87 silly resolved        chalk: '^0.5.0',
+87 silly resolved        yosay: '^0.3.0',
+87 silly resolved        'npm-name': '^1.0.1' },
+87 silly resolved     devDependencies:
+87 silly resolved      { grunt: '~0.4.5',
+87 silly resolved        'grunt-release': '~0.6.0',
+87 silly resolved        matchdep: '~0.1.2',
+87 silly resolved        mocha: '*' },
+87 silly resolved     peerDependencies: { yo: '>=1.0.0' },
+87 silly resolved     gitHead: 'bb632584a7483efda24828f93d69933746ce971e',
+87 silly resolved     bugs: { url: 'https://github.com/github/generator-hubot/issues' },
+87 silly resolved     homepage: 'https://github.com/github/generator-hubot',
+87 silly resolved     _id: 'generator-hubot@0.1.4',
+87 silly resolved     _shasum: 'e2a17ed9b57f2dc8c58c729352e762cb582eb5ef',
+87 silly resolved     _from: 'generator-hubot@',
+87 silly resolved     _npmVersion: '2.1.4',
+87 silly resolved     _nodeVersion: '0.10.21',
+87 silly resolved     _npmUser: { name: 'technicalpickles', email: 'josh@technicalpickles.com' },
+87 silly resolved     maintainers: [ [Object] ],
+87 silly resolved     dist:
+87 silly resolved      { shasum: 'e2a17ed9b57f2dc8c58c729352e762cb582eb5ef',
+87 silly resolved        tarball: 'http://registry.npmjs.org/generator-hubot/-/generator-hubot-0.1.4.tgz' },
+87 silly resolved     directories: {},
+87 silly resolved     _resolved: 'https://registry.npmjs.org/generator-hubot/-/generator-hubot-0.1.4.tgz' },
+87 silly resolved   { name: 'yo',
+87 silly resolved     version: '1.3.3',
+87 silly resolved     description: 'CLI tool for running Yeoman generators',
+87 silly resolved     license: 'BSD',
+87 silly resolved     bin: { yo: 'cli.js' },
+87 silly resolved     author: { name: 'The Yeoman Team' },
+87 silly resolved     repository: { type: 'git', url: 'https://github.com/yeoman/yo' },
+87 silly resolved     engines: { node: '>=0.10.0', npm: '>=1.4.3' },
+87 silly resolved     scripts:
+87 silly resolved      { test: 'grunt',
+87 silly resolved        postinstall: 'yodoctor',
+87 silly resolved        postupdate: 'yodoctor' },
+87 silly resolved     files: [ 'cli.js', 'yoyo.js' ],
+87 silly resolved     keywords:
+87 silly resolved      [ 'front-end',
+87 silly resolved        'development',
+87 silly resolved        'dev',
+87 silly resolved        'build',
+87 silly resolved        'web',
+87 silly resolved        'tool',
+87 silly resolved        'cli',
+87 silly resolved        'scaffold',
+87 silly resolved        'stack',
+87 silly resolved        'yeoman',
+87 silly resolved        'generator',
+87 silly resolved        'app' ],
+87 silly resolved     dependencies:
+87 silly resolved      { async: '^0.9.0',
+87 silly resolved        chalk: '^0.5.1',
+87 silly resolved        configstore: '^0.3.1',
+87 silly resolved        findup: '^0.1.5',
+87 silly resolved        fullname: '^1.0.0',
+87 silly resolved        insight: '^0.4.3',
+87 silly resolved        'is-root': '^1.0.0',
+87 silly resolved        lodash: '^2.4.1',
+87 silly resolved        multiline: '^1.0.0',
+87 silly resolved        nopt: '^3.0.0',
+87 silly resolved        opn: '^1.0.0',
+87 silly resolved        shelljs: '^0.3.0',
+87 silly resolved        'string-length': '^1.0.0',
+87 silly resolved        'sudo-block': '^1.0.0',
+87 silly resolved        'underscore.string': '^2.3.3',
+87 silly resolved        'update-notifier': '^0.2.2',
+87 silly resolved        'yeoman-character': '^1.0.0',
+87 silly resolved        'yeoman-doctor': '^1.0.0',
+87 silly resolved        'yeoman-environment': '^1.0.1',
+87 silly resolved        'yeoman-generator': '^0.17.7',
+87 silly resolved        yosay: '^1.0.0' },
+87 silly resolved     devDependencies:
+87 silly resolved      { grunt: '^0.4.5',
+87 silly resolved        'grunt-cli': '^0.1.13',
+87 silly resolved        'grunt-contrib-jshint': '^0.10.0',
+87 silly resolved        'grunt-contrib-watch': '^0.6.1',
+87 silly resolved        'grunt-mocha-test': '^0.12.1',
+87 silly resolved        mocha: '^1.21.4',
+87 silly resolved        mockery: '^1.4.0',
+87 silly resolved        sinon: '^1.10.3' },
+87 silly resolved     engineStrict: true,
+87 silly resolved     preferGlobal: true,
+87 silly resolved     gitHead: '813c37641c928431260e908ef1b5723c0f18afab',
+87 silly resolved     bugs: { url: 'https://github.com/yeoman/yo/issues' },
+87 silly resolved     homepage: 'https://github.com/yeoman/yo',
+87 silly resolved     _id: 'yo@1.3.3',
+87 silly resolved     _shasum: '732b053d6da401965ef146fe914d014474c37c1b',
+87 silly resolved     _from: 'yo@',
+87 silly resolved     _npmVersion: '2.1.2',
+87 silly resolved     _nodeVersion: '0.10.32',
+87 silly resolved     _npmUser: { name: 'sindresorhus', email: 'sindresorhus@gmail.com' },
+87 silly resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+87 silly resolved     dist:
+87 silly resolved      { shasum: '732b053d6da401965ef146fe914d014474c37c1b',
+87 silly resolved        tarball: 'http://registry.npmjs.org/yo/-/yo-1.3.3.tgz' },
+87 silly resolved     directories: {},
+87 silly resolved     _resolved: 'https://registry.npmjs.org/yo/-/yo-1.3.3.tgz' } ]
+88 info install generator-hubot@0.1.4 into /usr/local/lib
+89 info install yo@1.3.3 into /usr/local/lib
+90 info installOne generator-hubot@0.1.4
+91 info installOne yo@1.3.3
+92 verbose lib/node_modules/generator-hubot unbuild
+93 verbose lib/node_modules/yo unbuild
+94 verbose tar unpack /Users/arajaram/.npm/generator-hubot/0.1.4/package.tgz
+95 silly lockFile 6903d81a-lib-node-modules-generator-hubot tar:///usr/local/lib/node_modules/generator-hubot
+96 verbose lock tar:///usr/local/lib/node_modules/generator-hubot /Users/arajaram/.npm/6903d81a-lib-node-modules-generator-hubot.lock
+97 silly lockFile aed8e239-enerator-hubot-0-1-4-package-tgz tar:///Users/arajaram/.npm/generator-hubot/0.1.4/package.tgz
+98 verbose lock tar:///Users/arajaram/.npm/generator-hubot/0.1.4/package.tgz /Users/arajaram/.npm/aed8e239-enerator-hubot-0-1-4-package-tgz.lock
+99 verbose tar unpack /Users/arajaram/.npm/yo/1.3.3/package.tgz
+100 silly lockFile 7d7c7bef-ar-usr-local-lib-node-modules-yo tar:///usr/local/lib/node_modules/yo
+101 verbose lock tar:///usr/local/lib/node_modules/yo /Users/arajaram/.npm/7d7c7bef-ar-usr-local-lib-node-modules-yo.lock
+102 silly lockFile 1627bc08-rajaram-npm-yo-1-3-3-package-tgz tar:///Users/arajaram/.npm/yo/1.3.3/package.tgz
+103 verbose lock tar:///Users/arajaram/.npm/yo/1.3.3/package.tgz /Users/arajaram/.npm/1627bc08-rajaram-npm-yo-1-3-3-package-tgz.lock
+104 silly gunzTarPerm modes [ '755', '644' ]
+105 silly gunzTarPerm modes [ '755', '644' ]
+106 error Error: EACCES, mkdir '/usr/local/lib/node_modules/generator-hubot'
+106 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules/generator-hubot']
+106 error   errno: 3,
+106 error   code: 'EACCES',
+106 error   path: '/usr/local/lib/node_modules/generator-hubot',
+106 error   fstream_type: 'Directory',
+106 error   fstream_path: '/usr/local/lib/node_modules/generator-hubot',
+106 error   fstream_class: 'DirWriter',
+106 error   fstream_stack:
+106 error    [ '/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+106 error      '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53',
+106 error      'Object.oncomplete (fs.js:107:15)' ] }
+107 error Please try running this command again as root/Administrator.
+108 error System Darwin 14.0.0
+109 error command "node" "/usr/local/bin/npm" "install" "-g" "yo" "generator-hubot"
+110 error cwd /Users/arajaram/dev/src/chotu
+111 error node -v v0.10.32
+112 error npm -v 1.4.28
+113 error path /usr/local/lib/node_modules/generator-hubot
+114 error fstream_path /usr/local/lib/node_modules/generator-hubot
+115 error fstream_type Directory
+116 error fstream_class DirWriter
+117 error code EACCES
+118 error errno 3
+119 error stack Error: EACCES, mkdir '/usr/local/lib/node_modules/generator-hubot'
+120 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+120 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53
+120 error fstream_stack Object.oncomplete (fs.js:107:15)
+121 verbose exit [ 3, true ]
